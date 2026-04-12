@@ -1,0 +1,13 @@
+name = "Round Logs"
+filename = "Round Logs.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "29ff726598ac81197099e1e5f70f546abf812adb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7365178
+project-id = 1411081

@@ -1,0 +1,13 @@
+name = "Create: Astralization"
+author = "gha"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "ed9aa8a3e8550fe437c6c51f9ff089b3d25e5f363706356dcc5ed64f125649bc"
+
+[versions]
+forge = "47.4.10"
+minecraft = "1.20.1"

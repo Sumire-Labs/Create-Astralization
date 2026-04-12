@@ -1,0 +1,13 @@
+name = "Better Boats"
+filename = "§9BetterBoat§7_4.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fd17860b835312fa97c47a23265b4197c4873ab6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5978916
+project-id = 641044

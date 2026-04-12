@@ -1,0 +1,13 @@
+name = "Better Bows"
+filename = "Better Bows.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ff133ff965f5b9b6bd26dda0ba72186c4c79e35c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4747923
+project-id = 491762
