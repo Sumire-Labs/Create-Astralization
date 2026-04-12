@@ -1,0 +1,98 @@
+{
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.andesite_alloy"
+  },
+  "stats": {
+    "main": {
+      "durability": 180.0,
+      "armor_durability": 10.0,
+      "enchantability": 9.0,
+      "rarity": 10.0,
+      "chargeability": 0.6,
+      "harvest_level": 2.0,
+      "harvest_speed": 5.0,
+      "melee_damage": 2.0,
+      "magic_damage": 4.0,
+      "attack_speed": 0.15,
+      "ranged_damage": 2.0,
+      "ranged_speed": 0.3,
+      "armor": 12.0,
+      "armor_toughness": 0.0,
+      "magic_armor": 8.0
+    },
+    "rod": {
+      "durability": {
+        "mul2": -0.1
+      },
+      "harvest_speed": {
+        "mul2": 0.2
+      },
+      "rarity": 10.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:light",
+        "level": 2
+      },
+      {
+        "name": "silentgear:jagged",
+        "level": 1
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:light",
+        "level": 1
+      },
+      {
+        "name": "silentgear:jagged",
+        "level": 1
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#CCDBD3"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#CCDBD3"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_hc",
+        "color": "#CCDBD3"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#CCDBD3"
+      }
+    ]
+  }
+}

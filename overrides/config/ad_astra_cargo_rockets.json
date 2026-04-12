@@ -1,0 +1,20 @@
+{
+  "validDestinations": {
+    "minecraft:overworld": 0,
+    "ad_astra:earth_orbit": 1,
+    "ad_astra:glacio": 4,
+    "ad_astra:glacio_orbit": 4,
+    "ad_astra:moon_orbit": 1,
+    "ad_astra:mars_orbit": 2,
+    "ad_astra:mercury_orbit": 3,
+    "ad_astra:moon": 1,
+    "ad_astra:mercury": 3,
+    "ad_astra:venus_orbit": 3,
+    "ad_astra:mars": 2,
+    "ad_astra:venus": 3
+  },
+  "fuels": {
+    "ad_astra:cryo_fuel": 3.0,
+    "ad_astra:fuel": 1.0
+  }
+}

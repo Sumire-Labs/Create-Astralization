@@ -1,0 +1,98 @@
+{
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/lithium"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.lithium"
+  },
+  "stats": {
+    "main": {
+      "durability": 120.0,
+      "armor_durability": 11.0,
+      "enchantability": 18.0,
+      "rarity": 40.0,
+      "chargeability": 1.7,
+      "harvest_level": 2.0,
+      "harvest_speed": 6.5,
+      "melee_damage": 2.25,
+      "magic_damage": 4.5,
+      "attack_speed": 0.2,
+      "ranged_damage": 1.5,
+      "ranged_speed": 0.3,
+      "armor": 11.0,
+      "armor_toughness": 0.0,
+      "magic_armor": 9.0
+    },
+    "rod": {
+      "durability": {
+        "mul2": -0.2
+      },
+      "harvest_speed": {
+        "mul2": 0.2
+      },
+      "rarity": 40.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:soft",
+        "level": 2
+      },
+      {
+        "name": "silentgear:light",
+        "level": 2
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:lustrous",
+        "level": 2
+      },
+      {
+        "name": "silentgear:accelerate",
+        "level": 1
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#e8e4da"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#e8e4da"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_hc",
+        "color": "#e8e4da"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#e8e4da"
+      }
+    ]
+  }
+}

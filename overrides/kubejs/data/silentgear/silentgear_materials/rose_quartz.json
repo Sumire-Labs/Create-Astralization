@@ -1,0 +1,98 @@
+{
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "gem"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "create:polished_rose_quartz"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.rose_quartz"
+  },
+  "stats": {
+    "main": {
+      "durability": 360.0,
+      "armor_durability": 14.0,
+      "enchantability": 12.0,
+      "rarity": 50.0,
+      "chargeability": 1.2,
+      "harvest_level": 3.0,
+      "harvest_speed": 6.5,
+      "melee_damage": 2.5,
+      "magic_damage": 4.5,
+      "attack_speed": 0.2,
+      "ranged_damage": 0.05,
+      "ranged_speed": 0.1,
+      "armor": 16.0,
+      "armor_toughness": 0.0,
+      "magic_armor": 6.0
+    },
+    "rod": {
+      "durability": {
+        "mul2": -0.25
+      },
+      "harvest_speed": {
+        "mul2": 0.1
+      },
+      "rarity": 50.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:adamant",
+        "level": 2
+      },
+      {
+        "name": "silentgear:lustrous",
+        "level": 1
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:brittle",
+        "level": 2
+      },
+      {
+        "name": "silentgear:lustrous",
+        "level": 2
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#edadb8"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#edadb8"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_hc",
+        "color": "#edadb8"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#edadb8"
+      }
+    ]
+  }
+}

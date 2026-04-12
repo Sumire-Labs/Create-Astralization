@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "kubejs:block/nullheat_reactor",
+    "side": "create:block/dark_metal_block",
+    "top": "create:block/dark_metal_block"
+  }
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "ChikuwaInds",
+      "uniqueId": "9484facc-1a51-450b-a4d9-f18390d63dd5"
+    },
+    "time": 1773300154618,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ENPBm5w60e"
+    }
+  }
+]

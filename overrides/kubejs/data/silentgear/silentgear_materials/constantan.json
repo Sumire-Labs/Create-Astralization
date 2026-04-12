@@ -1,0 +1,94 @@
+{
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/constantan"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.constantan"
+  },
+  "stats": {
+    "main": {
+      "durability": 290.0,
+      "armor_durability": 15.0,
+      "enchantability": 16.0,
+      "rarity": 36.0,
+      "chargeability": 1.5,
+      "harvest_level": 2.0,
+      "harvest_speed": 7.0,
+      "melee_damage": 2.5,
+      "magic_damage": 3.0,
+      "attack_speed": 0.1,
+      "ranged_damage": 0.75,
+      "ranged_speed": 0.15,
+      "armor": 13.0,
+      "armor_toughness": 0.0,
+      "magic_armor": 5.0
+    },
+    "rod": {
+      "durability": {
+        "mul2": 0.1
+      },
+      "harvest_speed": {
+        "mul2": -0.1
+      },
+      "rarity": 36.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 2
+      },
+      {
+        "name": "silentgear:soft",
+        "level": 1
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:lustrous",
+        "level": 2
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#e3d1c3"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#e3d1c3"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_hc",
+        "color": "#e3d1c3"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#e3d1c3"
+      }
+    ]
+  }
+}
