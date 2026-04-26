@@ -1774,6 +1774,11 @@ hash = "724fe40135f0ed7f2614cd14116706686df7b092052af048dfbd109dad0c6863"
 metafile = true
 
 [[files]]
+file = "mods/better-line-break.pw.toml"
+hash = "b975cf6d960e3281c5b90e6d5e3c765eb6e36726f7716811aff19a00936ad7d5"
+metafile = true
+
+[[files]]
 file = "mods/better-village-forge.pw.toml"
 hash = "ec58995b4ee6e5610447daa2996e46fafd87b25888f072e7593bb3103a26dabc"
 metafile = true
@@ -2233,11 +2238,6 @@ hash = "48e2fa3089beed20a23ff2d171259768b2080ab0ff196841a18eb93c38e1c8b2"
 metafile = true
 
 [[files]]
-file = "mods/ftb-quest-localizer.pw.toml"
-hash = "956d1509932700458353873bda1a657d66c3c67fae5fbf345e42d6aaa453d4d7"
-metafile = true
-
-[[files]]
 file = "mods/ftb-quests-forge.pw.toml"
 hash = "f3b67e17e908e6875111e74d75f37fd8f17b21fc20f86e827e363f0d0c0a8c3b"
 metafile = true
@@ -2303,6 +2303,11 @@ hash = "d92834912371593543ac5c2de473e438fcf831e6e7641634c5e95918b73c211a"
 metafile = true
 
 [[files]]
+file = "mods/inventory-profiles-next.pw.toml"
+hash = "fa90c23becb1613663b566b5955c0dcdc390caabffc9b323f6642f44811ac4c0"
+metafile = true
+
+[[files]]
 file = "mods/ixeris.pw.toml"
 hash = "53362c93c090c33af694013daee79718754ef1856fd3708b2c7e6008c0c086ea"
 metafile = true
@@ -2358,6 +2363,11 @@ hash = "afd880e9028403834211fb8e19a77bed5e546da72570fb62086e46de83a530ef"
 metafile = true
 
 [[files]]
+file = "mods/libipn.pw.toml"
+hash = "ee79f551b7aede4b923fc6df137c4ebbb1dd21eb80a3aaba6da8be93ac5010e7"
+metafile = true
+
+[[files]]
 file = "mods/library-ferret-forge.pw.toml"
 hash = "207ea5c3ad00aee495de4d614c504d443c141068a2ddf0554f5a7829923cfeec"
 metafile = true
@@ -2370,6 +2380,11 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "e8b4876d403b4f4daab64bad9704a5b271a33031d1ff8d19d23ebd1e3b8dd39a"
+metafile = true
+
+[[files]]
+file = "mods/lucent.pw.toml"
+hash = "2ca738aa0f011b34d0018a3860aab82d3e86d05f64ee74e22eafcebe1941e1af"
 metafile = true
 
 [[files]]
