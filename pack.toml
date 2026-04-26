@@ -1,12 +1,12 @@
-name = "Create: Astralization"
+name = "Create-Astralization"
 author = "gha"
-version = "1.0.0"
+version = "1.0.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "d8d834339e29f4426a95c6e3254029de6d9459eb342062c8f7a83490323a8950"
+hash = "9c81d1d2cbdfe3e372d0112fb1dfd8dd357ef9bec5f4e91f697779e88fb8ff6d"
 
 [versions]
 forge = "47.4.10"

@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "LICENSE"
+hash = "72e0024990970ebc0abeceea85e206e83dabc01ca5c03f434c9b1aa9c3447961"
+
+[[files]]
 file = "config/CoroUtil/General.toml"
 hash = "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398"
 
@@ -1489,12 +1493,12 @@ file = "kubejs/assets/kubejs/textures/quest/creative_casing.png"
 hash = "bc8ecdd2f35929903309f5a9439198d3b63cc3898c6f2c98ce1993cb11a123c3"
 
 [[files]]
-file = "kubejs/client_scripts/tooltip.js"
-hash = "3366a62b47946f6f6e65b29f9f9934588307ea24570ec294ce1034772aee5ab4"
+file = "kubejs/client_scripts/lang.js"
+hash = "8735411c3895f952f055e799197117db81671a84ed367d37a3a943f6e74dfc39"
 
 [[files]]
-file = "kubejs/client_scripts/translate.js"
-hash = "8735411c3895f952f055e799197117db81671a84ed367d37a3a943f6e74dfc39"
+file = "kubejs/client_scripts/tooltip.js"
+hash = "3366a62b47946f6f6e65b29f9f9934588307ea24570ec294ce1034772aee5ab4"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -1555,6 +1559,30 @@ hash = "e1cc71f79df3a78d81bee0247287a7fa315c4ac282a0705a9ea7a640aca08876"
 [[files]]
 file = "kubejs/data/kubejs/functions/unstable_zerothium_damage.mcfunction"
 hash = "33dcc37147fa2f69fe5fc4764691ba52b6bc26934a2931a498ee84084a27adc9"
+
+[[files]]
+file = "kubejs/data/silentgear/loot_tables/inject/minecraft/chests/bastion_bridge.json"
+hash = "bc60fdeb8e21549aa54536990af230334717e0c00379571813a71269397126c5"
+
+[[files]]
+file = "kubejs/data/silentgear/loot_tables/inject/minecraft/chests/bastion_other.json"
+hash = "3ffdc12aa98e500dbb1fe76da1d511a6f90ab42105e142795deee596e74c3385"
+
+[[files]]
+file = "kubejs/data/silentgear/loot_tables/inject/minecraft/chests/bastion_treasure.json"
+hash = "d716e5eb83864940d30c179de2a6cf4a342fd3c7a9d056742968952a0ac463c1"
+
+[[files]]
+file = "kubejs/data/silentgear/loot_tables/inject/minecraft/chests/nether_bridge.json"
+hash = "ed4589ac0ce3d5e8ae932a57d0186c847565dbb8950ff504e569c34f0f4e5556"
+
+[[files]]
+file = "kubejs/data/silentgear/loot_tables/inject/minecraft/chests/ruined_portal.json"
+hash = "3b8df70da76737d6d6ff1356b5e0d371736430e01b0360f7fee84a7a5a21cd90"
+
+[[files]]
+file = "kubejs/data/silentgear/recipes/part/adornment.json"
+hash = "0650616240d3831190dd0e591a5d24e1d22be5d7c1ed31e196217429f1668cfb"
 
 [[files]]
 file = "kubejs/data/silentgear/silentgear_materials/andesite_alloy.json"
@@ -1797,10 +1825,6 @@ metafile = true
 file = "mods/caelus.pw.toml"
 hash = "da069e723737ae49203f7572eb774be0fd21f5f083ce7a7ee1bed25916befca8"
 metafile = true
-
-[[files]]
-file = "mods/cc-tweaked-1.20.1-forge-1.117.1.jar"
-hash = "9d28b5d6cc59c7cf4e3368e9ab7f373cc8c15d085fb6094eb6f80d5315319d70"
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
