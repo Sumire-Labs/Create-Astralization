@@ -1,0 +1,19 @@
+{
+  "type": "silentgear:compound_part",
+  "ingredients": [
+    {
+      "type": "silentgear:blueprint",
+      "part_type": "silentgear:adornment"
+    },
+    {
+      "item": "create_more_additions:silver_jewel"
+    },
+    {
+      "type": "silentgear:material",
+      "part_type": "silentgear:adornment"
+    }
+  ],
+  "result": {
+    "item": "silentgear:adornment"
+  }
+}
