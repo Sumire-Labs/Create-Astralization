@@ -158,7 +158,7 @@ ServerEvents.recipes(e => {
   e.remove({type: 'ad_astra:oxygen_loading'})
   e.recipes.vintage.curving('ad_astra:rocket_fin', '#forge:storage_blocks/steel').mode(4)
 
-  e.recipes.vintage.pressurizing(Fluid.of('ad_astra:fuel', 1000), [Fluid.of('tfmg:hydrogen', 1000), Fluid.of('ad_astra:oxygen', 1000), Fluid.of('tfmg:diesel', 1000)]).superheated()
+  e.recipes.vintage.pressurizing(Fluid.of('ad_astra:fuel', 1000), [Fluid.of('ad_astra:oxygen', 1000), Fluid.of('tfmg:diesel', 1000)]).superheated()
   e.recipes.vintage.vacuumizing([Fluid.of('ad_astra:cryo_fuel', 1000)], [Fluid.of('ad_astra:fuel', 1000), 'ad_astra:ice_shard', 'ad_astra:ostrum_nugget'])
 
   e.remove({output: 'ad_astra:nasa_workbench'})

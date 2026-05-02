@@ -60,7 +60,7 @@ ServerEvents.recipes(e => {
   })
 
   e.recipes.vintage.vacuumizing('kubejs:nullheat_catalyst', ['2x kubejs:exquisite_glacite', 'kubejs:cryogenic_entropy_regulator', Fluid.of('ad_astra:cryo_fuel', 2000)]).superheated()
-  e.recipes.create.mixing(Fluid.of('kubejs:infernal_lava', 500), ['4x ad_astra:infernal_spire_block', Fluid.of('lava', 2000), Fluid.of('createnuclear:uranium', 100)]).superheated()
+  e.recipes.create.mixing(Fluid.of('kubejs:infernal_lava', 250), ['2x ad_astra:infernal_spire_block', Fluid.of('lava', 1000), Fluid.of('createnuclear:uranium', 100)]).superheated()
   e.recipes.vintage.vacuumizing(Fluid.of('kubejs:nullheat_suppression_fluid', 500), ['kubejs:exquisite_glacite', Fluid.of('kubejs:infernal_lava', 1000), Fluid.of('tfmg:molten_slag', 576)])
 
   e.shaped('kubejs:nullheat_reaction_rod', [
