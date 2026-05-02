@@ -2347,6 +2347,11 @@ hash = "8f359d190506a6f824763b8e7c390d9e22204ef11e3ffa5ef980000d17e2c2b6"
 metafile = true
 
 [[files]]
+file = "mods/jamlib.pw.toml"
+hash = "421e79119a54be9d0b6717ea029b85c64bb7d27022cd94a01fc5cd2c94d39bff"
+metafile = true
+
+[[files]]
 file = "mods/konkrete.pw.toml"
 hash = "143102be700d30cf68d0988bc9f1b523545e37b7074ee786faac56a388e6f0e9"
 metafile = true
@@ -2554,6 +2559,11 @@ metafile = true
 [[files]]
 file = "mods/rhino.pw.toml"
 hash = "ca4411ac6d8a9a892948bb63cd0ba52ae5523ca5e257632d6ae8c933b660c5ee"
+metafile = true
+
+[[files]]
+file = "mods/rightclickharvest.pw.toml"
+hash = "33232510f247888ae35f261b26345f0f3c5f0daee0adbc0311aac2d5bb324a1d"
 metafile = true
 
 [[files]]
