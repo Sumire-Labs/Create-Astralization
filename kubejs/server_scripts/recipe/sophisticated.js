@@ -9,59 +9,127 @@ ServerEvents.recipes(e => {
   e.remove({id:'sophisticatedbackpacks:diamond_backpack'})
   e.remove({id:'sophisticatedbackpacks:netherite_backpack'})
 
-  e.shaped('sophisticatedbackpacks:backpack', [
-    'ALA', 
-    'ASA',
-    'LLL'  
-  ], {
-    A: '#forge:plates/andesite', 
-    S: 'supplementaries:sack',
-    L: '#forge:leather'
+  e.custom({
+    "type": "sophisticatedbackpacks:basic_backpack",
+    "key": {
+      "C": {
+        "item": "supplementaries:sack"
+      },
+      "L": {
+        "tag": "forge:leather"
+      },
+      "S": {
+        "tag": "forge:plates/andesite"
+      }
+    },
+    "pattern": [
+      "SLS",
+      "SCS",
+      "LLL"
+    ],
+    "result": {
+      "item": "sophisticatedbackpacks:backpack"
+    }
   })
 
-  e.shaped('sophisticatedbackpacks:copper_backpack', [
-    'SSS', 
-    'SBS',
-    'SSS'  
-  ], {
-    S: '#forge:plates/bronze',
-    B: 'sophisticatedbackpacks:backpack', 
+  e.custom({
+    "type": "sophisticatedbackpacks:backpack_upgrade",
+    "key": {
+      "B": {
+        "item": "sophisticatedbackpacks:backpack"
+      },
+      "C": {
+        "tag": "forge:plates/bronze"
+      }
+    },
+    "pattern": [
+      "CCC",
+      "CBC",
+      "CCC"
+    ],
+    "result": {
+      "item": "sophisticatedbackpacks:copper_backpack"
+    }
   })
 
-  e.shaped('sophisticatedbackpacks:iron_backpack', [
-    'SSS', 
-    'SBS',
-    'SSS'  
-  ], {
-    S: '#forge:plates/steel',
-    B: 'sophisticatedbackpacks:copper_backpack', 
+  e.custom({
+    "type": "sophisticatedbackpacks:backpack_upgrade",
+    "key": {
+      "B": {
+        "item": "sophisticatedbackpacks:copper_backpack"
+      },
+      "C": {
+        "tag": "forge:plates/steel"
+      }
+    },
+    "pattern": [
+      "CCC",
+      "CBC",
+      "CCC"
+    ],
+    "result": {
+      "item": "sophisticatedbackpacks:iron_backpack"
+    }
   })
 
-  e.shaped('sophisticatedbackpacks:gold_backpack', [
-    'SSS', 
-    'SBS',
-    'SSS'  
-  ], {
-    S: '#forge:plates/aluminum',
-    B: 'sophisticatedbackpacks:iron_backpack', 
+  e.custom({
+    "type": "sophisticatedbackpacks:backpack_upgrade",
+    "key": {
+      "B": {
+        "item": "sophisticatedbackpacks:iron_backpack"
+      },
+      "C": {
+        "tag": "forge:plates/aluminum"
+      }
+    },
+    "pattern": [
+      "CCC",
+      "CBC",
+      "CCC"
+    ],
+    "result": {
+      "item": "sophisticatedbackpacks:gold_backpack"
+    }
   })
 
-  e.shaped('sophisticatedbackpacks:diamond_backpack', [
-    'SSS', 
-    'SBS',
-    'SSS'  
-  ], {
-    S: '#forge:ingots/plastic',
-    B: 'sophisticatedbackpacks:gold_backpack', 
+  e.custom({
+    "type": "sophisticatedbackpacks:backpack_upgrade",
+    "key": {
+      "B": {
+        "item": "sophisticatedbackpacks:gold_backpack"
+      },
+      "C": {
+        "tag": "forge:ingots/plastic"
+      }
+    },
+    "pattern": [
+      "CCC",
+      "CBC",
+      "CCC"
+    ],
+    "result": {
+      "item": "sophisticatedbackpacks:diamond_backpack"
+    }
   })
 
-  e.shaped('sophisticatedbackpacks:netherite_backpack', [
-    'SSS', 
-    'SBS',
-    'SSS'  
-  ], {
-    S: '#forge:plates/desh',
-    B: 'sophisticatedbackpacks:diamond_backpack', 
+  e.custom({
+    "type": "sophisticatedbackpacks:backpack_upgrade",
+    "key": {
+      "B": {
+        "item": "sophisticatedbackpacks:diamond_backpack"
+      },
+      "C": {
+        "tag": "forge:plates/desh"
+      }
+    },
+    "pattern": [
+      "CCC",
+      "CBC",
+      "CCC"
+    ],
+    "result": {
+      "item": "sophisticatedbackpacks:netherite_backpack"
+    }
   })
 
   e.replaceInput({mod: 'sophisticatedbackpacks', input: 'iron_ingot', not: {input: 'smooth_stone'}},'iron_ingot','#forge:plates/andesite')
