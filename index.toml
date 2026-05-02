@@ -5,6 +5,11 @@ file = "LICENSE"
 hash = "72e0024990970ebc0abeceea85e206e83dabc01ca5c03f434c9b1aa9c3447961"
 
 [[files]]
+file = "complementary-reimagined.pw.toml"
+hash = "753adc976b00bdb2f4e060e18700d778d0938c76805c46747acccb139fdc7025"
+metafile = true
+
+[[files]]
 file = "config/CoroUtil/General.toml"
 hash = "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398"
 
