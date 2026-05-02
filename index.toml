@@ -2567,6 +2567,11 @@ hash = "ca4411ac6d8a9a892948bb63cd0ba52ae5523ca5e257632d6ae8c933b660c5ee"
 metafile = true
 
 [[files]]
+file = "mods/rightclickharvest-supplementaries-compat.pw.toml"
+hash = "f0474370533047873f5acc272ff6bd9e5f6eaba367b4d90dcf63d144ec4f0847"
+metafile = true
+
+[[files]]
 file = "mods/rightclickharvest.pw.toml"
 hash = "33232510f247888ae35f261b26345f0f3c5f0daee0adbc0311aac2d5bb324a1d"
 metafile = true

@@ -1,0 +1,13 @@
+name = "RightClickHarvest Supplementaries Compat"
+filename = "rch-supplementaries-compat-forge-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bf036aa56d7db98224ff639ba66ddb66819a93d8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5436019
+project-id = 1038427
