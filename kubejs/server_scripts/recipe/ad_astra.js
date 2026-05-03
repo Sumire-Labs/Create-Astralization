@@ -30,11 +30,11 @@ ServerEvents.recipes(e => {
 
   // 鉱石処理
   e.remove({id: 'create:crushing/tuff'})
-  e.remove({id: 'createoreexcavation:milling/redstone'})
-  e.remove({id: 'createoreexcavation:crushing/redstone'})
+  e.remove({id: 'createoreexcavation:milling/redstone_milling'})
+  e.remove({id: 'createoreexcavation:crushing/redstone_crushing'})
   e.remove({id: 'create:crushing/tuff_recycling'})
 
-  e.recipes.create.crushing('createoreexcavation:raw_redstone', ['1x redstone', Item.of('redstone').withChance(0.5)])
+  e.recipes.create.crushing(['1x redstone', Item.of('redstone').withChance(0.5)], 'createoreexcavation:raw_redstone')
 
   e.recipes.create.crushing('ad_astra:moon_sand', 'ad_astra:moon_cobblestone')
   e.recipes.create.splashing([Item.of('kubejs:fireclay_powder').withChance(0.25), Item.of('create:zinc_nugget').withChance(0.12)], 'ad_astra:moon_sand')

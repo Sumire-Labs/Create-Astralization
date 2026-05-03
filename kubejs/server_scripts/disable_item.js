@@ -1,6 +1,8 @@
 // アイテム削除&統合
 
 const disabledItem = [
+  'artifacts:everlasting_beef',
+  'artifacts:eternal_steak',
   'createnuclear:steel_block',
   'createnuclear:steel_ingot',
   'createnuclear:steel_nugget',
