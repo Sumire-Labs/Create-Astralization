@@ -89,7 +89,7 @@ ServerEvents.recipes(e => {
     'O O'
   ], {
     O: 'ad_astra:ostrum_plate',
-    A: 'netherite_leggings',
+    A: 'netherite_boots',
     C: 'kubejs:integrated_circuit',
     D: 'ad_astra:desh_plate'
   })
