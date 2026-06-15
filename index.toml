@@ -2089,6 +2089,16 @@ hash = "2dce962341375002f5937a871778cd0fc06d6bda41a3bdba8940a611b25dcd32"
 metafile = true
 
 [[files]]
+file = "mods/create-bigger-storage-updated-to-create-6.pw.toml"
+hash = "78e128483648a8b3308bc0932a99290def7313d132ed17d7a58090205d3de38f"
+metafile = true
+
+[[files]]
+file = "mods/create-bigger-storage.pw.toml"
+hash = "001bbc14b75004eac703cb0225ecad68aaa81822c305260459cc29ea58865b4e"
+metafile = true
+
+[[files]]
 file = "mods/create-bits-n-bobs.pw.toml"
 hash = "55f00dec6de619116fbedc14296e64a0124d22db005eb1433385014c95083444"
 metafile = true
@@ -2836,6 +2846,11 @@ metafile = true
 [[files]]
 file = "mods/too-fast.pw.toml"
 hash = "8fa597b487ad567a8d1f552bd70a6ed1e23e101630e0a993f354e8e4e7b8fc8e"
+metafile = true
+
+[[files]]
+file = "mods/tool-belt.pw.toml"
+hash = "768ddf23e0ccae5788087cfbe107483e2d9408644400f5471c94433d00c22284"
 metafile = true
 
 [[files]]
