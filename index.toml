@@ -1802,7 +1802,7 @@ hash = "a32fc5935cf824b19475886719707da2cfe91baf316104e632c5679203d14393"
 
 [[files]]
 file = "kubejs/server_scripts/recipe/ad_astra.js"
-hash = "99342941edf2062118a81ab17791591a3124f409acf79ee65be7d94e6ac749a1"
+hash = "ba482e9621700f99b3a64943da0ed6b00f22babd67176084c57ea41e9920fb39"
 
 [[files]]
 file = "kubejs/server_scripts/recipe/create_early.js"
@@ -1826,7 +1826,7 @@ hash = "13eaa3d1a835e689f1900bbbe6788fb0758a7aa89b1ad45725ff9f9749a337ab"
 
 [[files]]
 file = "kubejs/server_scripts/recipe/silentgear.js"
-hash = "748517e1d02c323624cc042284974f2a819222bb7ed790719e41236ba6495b76"
+hash = "ce69f3a2764efabbecd03bf2a4826aace28f55bfa4d4a469d241fdf9ab240a6c"
 
 [[files]]
 file = "kubejs/server_scripts/recipe/sophisticated.js"
@@ -1920,10 +1920,6 @@ hash = "20538bbf9d5ab529813028288dcfc2c5394807dcb676fe14a8c94e2e93735083"
 file = "mods/ad-astra-cargo-rocket-unofficial-to-forge.pw.toml"
 hash = "6907b18fb7989a8dac69d948aaaa87fb15b5b8d47782f92a41944287f25a52a9"
 metafile = true
-
-[[files]]
-file = "mods/ad-astra-cargo-rockets-1.1-beta.3.jar"
-hash = "59a856dcc585c586af40ebbd3405b5a208970a25ef964e2cea835401575f5572"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
