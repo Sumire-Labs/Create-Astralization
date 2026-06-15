@@ -2,7 +2,6 @@
 
 ServerEvents.recipes(e => {
 
-  e.remove({output: 'silentgear:tyrian_steel_ingot', input: 'shulker_shell'})
   e.remove({output: 'silentgear:glittery_dust'})
   e.remove({output: 'silentgear:blazing_dust'})
   e.remove({id: 'silentgear:crimson_iron_dust_smelting'})

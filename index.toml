@@ -518,7 +518,7 @@ hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "14ba62e76b0b1ed8bc5b90ee9aa51455454f9bd220f6fd82ecb5853711ca6324"
+hash = "0088cdbe4edb45e8fdd8236412d217d4e7e61a594be254958ea13939179134cd"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -1209,10 +1209,6 @@ file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
 hash = "ab6bcad040f138406197f70cfe9a041832feaddf7e87954d9a5f4b13b6a962f9"
 
 [[files]]
-file = "defaultconfigs/ftbqoptimizer.snbt"
-hash = "44bfb991779a3327302e943a0ac918fe0d0484540fd6e3b918087326090e7178"
-
-[[files]]
 file = "defaultconfigs/ftbquests/client-config.snbt"
 hash = "4ce84f0da35036f810959086ea1043062993bf34ae704fc9cd4f1a67810090a6"
 
@@ -1701,6 +1697,26 @@ file = "kubejs/data/ad_astra/worldgen/template_pool/oil_well/oil_well.json"
 hash = "107628ca83ea952de92a07317c9d155a67db970194e10806e8d0c93b456cf171"
 
 [[files]]
+file = "kubejs/data/artifacts/loot_tables/artifact.json"
+hash = "403ecf19ca7fefd6f0750e7787a5fd3210fdccf478c4d2dc344c22cf3a00de83"
+
+[[files]]
+file = "kubejs/data/artifacts/loot_tables/inject/chests/bastion_hoglin_stable.json"
+hash = "365676c88848a4c392706ecc660eeb0dcfe376a70ae6dfb3627069db6e85abc3"
+
+[[files]]
+file = "kubejs/data/artifacts/loot_tables/inject/chests/bastion_treasure.json"
+hash = "b1218a1bfd195814869d6943197d1039fab909e3042ed0f3aa501a96f4fa0df2"
+
+[[files]]
+file = "kubejs/data/artifacts/loot_tables/inject/chests/village/village_butcher.json"
+hash = "69f12cfa34bfbf20e10857df01e35ab796402a2b895d7f85b63767f9abccdf9a"
+
+[[files]]
+file = "kubejs/data/artifacts/loot_tables/inject/chests/woodland_mansion.json"
+hash = "47e76f819d12eb29a5743da97e316f948fae5721901721fff34f0487e39a4e85"
+
+[[files]]
 file = "kubejs/data/kubejs/functions/frigid_damage.mcfunction"
 hash = "e1cc71f79df3a78d81bee0247287a7fa315c4ac282a0705a9ea7a640aca08876"
 
@@ -1774,15 +1790,11 @@ hash = "efd4b72f9aaadc127d2e7b8e31eb9a56719dd500fee88dc384df68eb3ec7f8df"
 
 [[files]]
 file = "kubejs/server_scripts/disable_item.js"
-hash = "c9f69417cb8fbf7f1f50060e780a07abf0fd7600d073a2bdfbcd221e714c7e28"
+hash = "65e327d5ea777223517637ce1cec2030aa9b48555a94784ca731555654e105ab"
 
 [[files]]
 file = "kubejs/server_scripts/item_event.js"
 hash = "8652517c43416db91f6c94cf2e8b5e526bddb240f934bcc4a6a4d19ca240dfd7"
-
-[[files]]
-file = "kubejs/server_scripts/loot_table.js"
-hash = "da36d3c918cf30e6d48c5122affd3df69671b32a2c983398afe7518c96a1e20f"
 
 [[files]]
 file = "kubejs/server_scripts/mbd2_event.js"
@@ -1790,7 +1802,7 @@ hash = "a32fc5935cf824b19475886719707da2cfe91baf316104e632c5679203d14393"
 
 [[files]]
 file = "kubejs/server_scripts/recipe/ad_astra.js"
-hash = "6967e0001f3400ada5eed793ea6e0fff89c158ffe9eee0de4f8ef72d103ee6f4"
+hash = "99342941edf2062118a81ab17791591a3124f409acf79ee65be7d94e6ac749a1"
 
 [[files]]
 file = "kubejs/server_scripts/recipe/create_early.js"
@@ -1903,6 +1915,11 @@ hash = "2fc6a5785b11250f44d1d686ea9a13b387396efe7ddcb760d1583ad37396c98e"
 [[files]]
 file = "ldlib/assets/mbd2/recipe_type/rtg_generator.rt"
 hash = "20538bbf9d5ab529813028288dcfc2c5394807dcb676fe14a8c94e2e93735083"
+
+[[files]]
+file = "mods/ad-astra-cargo-rocket-unofficial-to-forge.pw.toml"
+hash = "6907b18fb7989a8dac69d948aaaa87fb15b5b8d47782f92a41944287f25a52a9"
+metafile = true
 
 [[files]]
 file = "mods/ad-astra-cargo-rockets-1.1-beta.3.jar"
@@ -2021,11 +2038,6 @@ metafile = true
 [[files]]
 file = "mods/configured.pw.toml"
 hash = "c1bdeff356cd2ac164e2c0e6d0ceeda234db9774c2df44fb9f0e71d3960cc3f1"
-metafile = true
-
-[[files]]
-file = "mods/connector-extras.pw.toml"
-hash = "ccc22ae710d22b2c8e8851c5968f85d32bac9f40ee7ded717df78cbe0cc8dae3"
 metafile = true
 
 [[files]]
@@ -2396,11 +2408,6 @@ metafile = true
 [[files]]
 file = "mods/fluidjs.pw.toml"
 hash = "53c6dedb1da6d14149c4d8490275bf05b038d5d283ed6603c8c08d694a078de7"
-metafile = true
-
-[[files]]
-file = "mods/forgified-fabric-api.pw.toml"
-hash = "62ef7e92478035b77e996189984e4749b2d876ed0a389977a2670a28f105bfd2"
 metafile = true
 
 [[files]]
@@ -2776,11 +2783,6 @@ metafile = true
 [[files]]
 file = "mods/simply-light.pw.toml"
 hash = "762eced5d260cdbc94f0acc033efd8fe70fdfe5a28bd8d180e0b052de509893f"
-metafile = true
-
-[[files]]
-file = "mods/sinytra-connector.pw.toml"
-hash = "576f8242f3de93161c590067fda3f3e9e922c0aea8fb5fcfac5adcef0d9d4a34"
 metafile = true
 
 [[files]]
