@@ -1790,7 +1790,7 @@ hash = "efd4b72f9aaadc127d2e7b8e31eb9a56719dd500fee88dc384df68eb3ec7f8df"
 
 [[files]]
 file = "kubejs/server_scripts/disable_item.js"
-hash = "65e327d5ea777223517637ce1cec2030aa9b48555a94784ca731555654e105ab"
+hash = "55eff6d0226df313d2c0569a943fee90acaa4fca997f6998e3667c5b2fa1d9a0"
 
 [[files]]
 file = "kubejs/server_scripts/item_event.js"
@@ -1814,7 +1814,7 @@ hash = "4f7ebac78ea3720aec1ecf419f082c74744d34d075e8fb3c4e1213817b20fbe5"
 
 [[files]]
 file = "kubejs/server_scripts/recipe/create_mid.js"
-hash = "dd8d229af4e36135d15d9bdf2dfc8008f40b3a6000a26401cffdeb44dbcf59de"
+hash = "076894940ea0a97dce421a89699ab38b820bba4d7dfb37551dd5139a368962cf"
 
 [[files]]
 file = "kubejs/server_scripts/recipe/endgame.js"
