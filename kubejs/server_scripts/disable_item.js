@@ -167,7 +167,12 @@ const disabledItem = [
   'vintage:laser_item',
   'vintage:vanadium_nugget',
   'vintage:vanadium_ingot',
-  'vintage:vanadium_block'
+  'vintage:vanadium_block',
+  'create_bs:wooden_item_vault',
+  'create_bs:copper_item_vault',
+  'create_bs:emerald_item_vault',
+  'create_bs:crystal_item_vault',
+  'create_bs:obsidian_item_vault'
 ]
 
 // Vintageの無駄な素材を消す

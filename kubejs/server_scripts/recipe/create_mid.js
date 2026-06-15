@@ -5,6 +5,9 @@ ServerEvents.recipes(e => {
   // Balanced Flight
   e.remove({mod: 'balancedflight'})
 
+  // Bigger Storage
+  e.remove({mod: 'create_bs'})
+
   // Spawner
   e.remove({id: 'create_mechanical_spawner:spawner/pigling'})
   e.recipes.createMechanicalSpawnerSpawner(Fluid.of('create_mechanical_spawner:spawn_fluid_pigling', 100)).processingTime(2500).mob("minecraft:piglin")
@@ -401,4 +404,45 @@ ServerEvents.recipes(e => {
   e.recipes.create.splashing(['4x createnuclear:uranium_powder', Item.of('vintage:sulfur').withChance(0.25)], 'create:crushed_raw_uranium')
   e.recipes.create.splashing(['9x createnuclear:lead_nugget', Item.of('tfmg:fireclay_ball').withChance(0.25)], 'create:crushed_raw_lead')
   e.recipes.create.splashing(['9x tfmg:lithium_nugget', Item.of('glowstone_dust').withChance(0.25)], 'tfmg:crushed_raw_lithium')
+
+  // Vaults
+  e.shaped('create_bs:iron_item_vault', [
+    'SIS', 
+    'IVI',
+    'SIS'  
+  ], {
+    S: 'create:brass_sheet',
+    I: 'iron_block',
+    V: 'create:item_vault'
+  })
+
+  e.shaped('create_bs:gold_item_vault', [
+    'SIS', 
+    'IVI',
+    'SIS'  
+  ], {
+    S: 'tfmg:aluminum_sheet',
+    I: 'gold_block',
+    V: 'create_bs:iron_item_vault'
+  })
+
+  e.shaped('create_bs:diamond_item_vault', [
+    'SIS', 
+    'IVI',
+    'SIS'  
+  ], {
+    S: 'ad_astra:desh_plate',
+    I: 'diamond_block',
+    V: 'create_bs:gold_item_vault'
+  })
+
+  e.shaped('create_bs:netherite_item_vault', [
+    'SIS', 
+    'IVI',
+    'SIS'  
+  ], {
+    S: 'kubejs:chromatic_stained_sheet',
+    I: 'netherite_ingot',
+    V: 'create_bs:diamond_item_vault'
+  })
 })
